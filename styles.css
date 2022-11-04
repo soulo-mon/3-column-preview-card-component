@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*, a{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.top-container-image,
+.mid-container-image,
+.bottom-container-image{
+    padding-top: 50px;
+}
+
+.top-container{
+    background-color: #E28827;
+    padding: 30px;
+}
+
+.section-heading{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    padding-top: 50px;
+    font-size: 20px;
+    color: hsl(0, 0%, 95%);
+}
+
+.section-content{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    padding-top: 50px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.top-button{
+    margin-top: 25px;
+    width: 150px;
+    height: 40px;
+    border-radius: 35px;
+    border: none;
+    margin-bottom: 30px;
+
+}
+
+.top-text{
+    color: #E28827;
+    font-size: 17px;
+}
+
+.mid-container{
+    background-color: #006970;
+    padding: 30px;
+}
+
+.mid-button{
+    margin-top: 25px;
+    width: 150px;
+    height: 40px;
+    border-radius: 35px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.mid-text{
+    color: #006970;
+    font-size: 17px;
+}
+
+.bottom-container{
+    background-color: #004241;
+    padding: 30px;
+}
+
+
+
+.bottom-button{
+    margin-top: 25px;
+    width: 150px;
+    height: 40px;
+    border-radius: 35px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.bottom-text{
+    color: #004241;
+    font-size: 17px;
+}
+
+.top-button:active{
+    border: 1px solid white;
+    background-color: #E28827;
+    color: white;
+}
+
+
+.top-text:active,
+.mid-text:active,
+.bottom-text:active{
+    color: white;
+}
+
+.mid-button:active{
+    border:1px solid white ;
+    background-color: #006970;
+    color: white;
+}
+
+.bottom-button:active{
+    border: 1px solid white;
+    background-color: #004241;
+    color: white;
+}
+
+
+@media screen and (min-width:768px){
+    .container{
+        text-align: center;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+}
+
+@media screen and (min-width:1440px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        padding-right: 10%;
+        padding-left: 10%;
+        margin-top: 70px;
+        text-align: left;
+    }
+}
